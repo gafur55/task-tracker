@@ -23,6 +23,12 @@ function App() {
         reminder: false,
     },
 ])
+
+//Delete Task
+  const deleteTask = (id) => {
+    console.log('delete', id)
+  }
+
   return (
     <div>
       <Header /> 
